@@ -1,0 +1,4 @@
+import bcrypt
+password='dmjd2462'
+hased = bcrypt.hashpw(password.encode('utf-8', 'ignore'), bcrypt.gensalt())
+print(hased)
